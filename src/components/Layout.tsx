@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '@/components/ui/button';
-import { LogOut, Pills, User } from 'lucide-react';
+import { LogOut, Pill, User } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -17,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Pills className="h-8 w-8 text-blue-600 mr-2" />
+              <Pill className="h-8 w-8 text-blue-600 mr-2" />
               <h1 className="text-xl font-bold text-gray-900">MedsBuddy</h1>
             </div>
             

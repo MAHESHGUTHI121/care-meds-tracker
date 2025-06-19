@@ -7,7 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Pills } from 'lucide-react';
+import { Pill } from 'lucide-react';
 
 const Login: React.FC = () => {
   const { login, register, loading } = useAuth();
@@ -48,7 +48,7 @@ const Login: React.FC = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
-            <Pills className="h-12 w-12 text-blue-600" />
+            <Pill className="h-12 w-12 text-blue-600" />
           </div>
           <h1 className="text-3xl font-bold text-gray-900">MedsBuddy</h1>
           <p className="text-gray-600 mt-2">Your medication management companion</p>
