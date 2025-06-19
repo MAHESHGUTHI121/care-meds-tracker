@@ -66,7 +66,7 @@ const MedicationList: React.FC = () => {
               <div className="flex items-start justify-between">
                 <div>
                   <CardTitle className="text-lg">{medication.name}</CardTitle>
-                  <Car-description className="flex items-center space-x-4 text-sm">
+                  <CardDescription className="flex items-center space-x-4 text-sm">
                     <span>{medication.dosage}</span>
                     <span>{medication.frequency}</span>
                     <Badge variant="outline">{medication.timeSlots.join(', ')}</Badge>
